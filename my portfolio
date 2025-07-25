@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sanjai | Digital Marketer & eCommerce Consultant</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { pop: ['Poppins', 'sans-serif'] }
+        }
+      }
+    };
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+<body class="font-pop bg-white text-gray-800">
+
+  <!-- Hero Section -->
+  <section class="h-screen bg-cover bg-center flex items-center justify-center text-center text-white" style="background-image: url('https://source.unsplash.com/1600x900/?marketing,ecommerce');">
+    <div class="bg-black bg-opacity-50 p-10 rounded-xl">
+      <h1 class="text-5xl font-bold mb-4">I'm Sanjai</h1>
+      <p class="text-xl mb-6">Freelance Digital Marketer & eCommerce Expert</p>
+      <a href="#contact" class="bg-green-500 hover:bg-green-600 px-6 py-3 rounded-full font-bold transition">Let's Work Together</a>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="max-w-6xl mx-auto px-6 py-20">
+    <h2 class="text-3xl font-bold mb-4 text-center">About Me</h2>
+    <p class="text-center text-gray-600 max-w-3xl mx-auto mb-6">
+      I help businesses grow online using smart strategies — Shopify, Amazon, SEO, and Ads. Certified in AWS Cloud, Google Digital Marketing, and Facebook Blueprint.
+    </p>
+    <div class="flex flex-wrap justify-center gap-4 text-sm text-white">
+      <span class="bg-blue-600 px-4 py-2 rounded-full">AWS Certified</span>
+      <span class="bg-green-500 px-4 py-2 rounded-full">Google eCommerce Pro</span>
+      <span class="bg-pink-500 px-4 py-2 rounded-full">Facebook Ads Expert</span>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="bg-gray-50 py-20">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-3xl font-bold mb-12 text-center">Services</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white shadow-lg p-6 rounded-xl hover:scale-105 transition">
+          <h3 class="text-xl font-semibold mb-2">Shopify Store Setup</h3>
+          <p class="text-gray-600">From design to launch, I create Shopify stores that convert.</p>
+        </div>
+        <div class="bg-white shadow-lg p-6 rounded-xl hover:scale-105 transition">
+          <h3 class="text-xl font-semibold mb-2">Flipkart/Amazon Seller Services</h3>
+          <p class="text-gray-600">Catalog upload, SEO optimization, paid campaigns.</p>
+        </div>
+        <div class="bg-white shadow-lg p-6 rounded-xl hover:scale-105 transition">
+          <h3 class="text-xl font-semibold mb-2">Digital Ads + SEO</h3>
+          <p class="text-gray-600">Google Ads, Meta Ads, and local SEO to drive real results.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="py-20 bg-white">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-3xl font-bold text-center mb-12">Featured Projects</h2>
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="rounded-xl shadow-md overflow-hidden hover:shadow-xl transition">
+          <img src="https://source.unsplash.com/800x400/?fashion,store" alt="Project" class="w-full h-56 object-cover" />
+          <div class="p-6">
+            <h3 class="text-xl font-semibold mb-2">Voguar Sportswear</h3>
+            <p class="text-gray-600">Complete setup: Shopify + Flipkart + Meta Ads Campaign.</p>
+          </div>
+        </div>
+        <div class="rounded-xl shadow-md overflow-hidden hover:shadow-xl transition">
+          <img src="https://source.unsplash.com/800x400/?seo,localbusiness" alt="Project" class="w-full h-56 object-cover" />
+          <div class="p-6">
+            <h3 class="text-xl font-semibold mb-2">Gobi Local Store</h3>
+            <p class="text-gray-600">Local SEO + WhatsApp + Google My Business Optimization.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="bg-blue-600 text-white py-20">
+    <div class="max-w-2xl mx-auto text-center px-6">
+      <h2 class="text-3xl font-bold mb-4">Contact Me</h2>
+      <p class="mb-6 text-lg">Need a marketing partner or eCommerce expert? Let’s grow your business online.</p>
+      <div class="space-y-2">
+        <p>📧 <a href="mailto:sanjai@email.com" class="underline">sanjai@email.com</a></p>
+        <p>📞 <a href="tel:+919876543210" class="underline">+91 98765 43210</a></p>
+        <p>💬 <a href="https://wa.me/919876543210" target="_blank" class="underline text-green-300">WhatsApp Chat</a></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-center text-white py-6 text-sm">
+    <p>© 2025 Sanjai — Freelance Digital Marketer & eCommerce Specialist</p>
+  </footer>
+
+</body>
+</html>
